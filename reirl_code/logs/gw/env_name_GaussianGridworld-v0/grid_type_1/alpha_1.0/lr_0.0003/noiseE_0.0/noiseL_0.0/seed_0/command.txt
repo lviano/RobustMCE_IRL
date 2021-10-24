@@ -1,0 +1,1 @@
+python gail/reirl_gym.py --env-name GaussianGridworld-v0 --grid-type 1 --expert-traj-path assets/envGaussianGridworld-v0type1noiseE0.0/expert_traj/GaussianGridworld-v0_expert_traj.p --num-threads 1 --log-interval 1 --save-model-interval 10 --max-iter-num 150 --learning-rate 0.0003 --alpha 1.0 --seed 0 --noiseE 0.0 --noiseL 0.0

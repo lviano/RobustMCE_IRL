@@ -1,0 +1,1 @@
+python examples/ppo_gym.py --env-name GaussianGridworld-v0  --save-model-interval 10 --log-interval 1 --num-threads 1 --learning-rate 0.0003 --max-iter-num 100 --grid-type 2 --noiseE 0.0
